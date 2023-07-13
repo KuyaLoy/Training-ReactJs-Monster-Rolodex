@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    console.log("2");
+    console.log("3");
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
       .then((users) =>
@@ -29,7 +29,7 @@ class App extends Component {
   }
 
   render() {
-    console.log("3");
+    console.log("2");
     return (
       <div className="App">
         <h1>
